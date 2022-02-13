@@ -1,5 +1,6 @@
 #!/bin/bash
-#cd /home/ubuntu/server/src
+cd /var/www/html/project
+cp -r build/. ../../
 #npm start
 #pm2 start npm --name "covidapp" -- start
 #pm2 startup
