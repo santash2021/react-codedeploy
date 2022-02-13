@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /var/www/html/project
-cp -r build/. ../../
+cp -r build/. ../
 #npm start
 #pm2 start npm --name "covidapp" -- start
 #pm2 startup
